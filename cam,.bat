@@ -1,0 +1,1 @@
+ffmpeg -f dshow -i video="HP Wide Vision HD Camera" -vf fps=1/3 fruit_classification/captured_images/image-%03d.jpg
